@@ -7,16 +7,12 @@
             <h1><a href="/">Kiev Stage</a></h1>
         </div>
 
-        <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">Bring Me The Horizon</a></h2>
-            <p>Киев, 11 февраля 2020,  20:00</p>
-        </div>
-
-        <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">Lenny Kravitz / Ленни Кравиц</a></h2>
-            <p>Киев, 13 июня 2020, 19:00</p>
-        </div>
+        {% for post in posts %}
+            <div>
+                <p>published:{{ post.published_date }}</p>
+                <h1><a href="">{{ post.title }}</a></h1>
+                <p>{{ post.text|linebreaksbr }}</p>
+            </div>
+        {% endfor %}
     </body>
 </html>
