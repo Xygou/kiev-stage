@@ -1,6 +1,6 @@
 h1 a {
-    color: #FCA205;
-    font-family: 'Lobster'
+    color: #fcf444;
+    font-family: 'Raleway',sans-serif;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
 }
 
 .page-header {
-    background-color: #ff9400;
+    background-color: #6a87c7;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -17,6 +17,7 @@ body {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    font-family: 'Anton', sans-serif;
 }
 
 .content {
